@@ -50,8 +50,8 @@ class ReducedRelativesRule(Rule):
         heads = sorted(list(COMPLEMENT_HEAD_VERBS | COMPLEMENT_HEAD_ADJECTIVES), key=len, reverse=True)
         head_pattern = "|".join(re.escape(h) for h in heads)
         self.comp_pattern = re.compile(
-            rf"\b(?P<head>{head_pattern})\s+"
-            rf"(?P<subj>(?:the|this|that|these|a|an|my|your|his|her|its|our|their|it|we|they|he|she|you))\s+"
+            rf"\b(?P<head>{head_pattern})\s+(?!that\b)"
+            rf"(?P<subj>(?:the|this|these|those|a|an|my|your|his|her|its|our|their|it|we|they|he|she|you))\s+"
             rf"(?P<rest>[A-Za-z0-9_-]+\s+(?:is|was|are|were|has|had|did|could|would|should|will|can|[a-z]+ed)(?:\s+[a-zA-Z0-9_-]+)?)\b",
             re.IGNORECASE
         )

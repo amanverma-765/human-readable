@@ -31,6 +31,10 @@ class ReadabilityChecker:
             else:
                 # Mask inline backtick code spans with equal-length spaces
                 masked_line = re.sub(r"`[^`\n]+`", lambda m: " " * len(m.group(0)), line)
+                # Mask HTML tags (e.g. <img>, <p>, <a>)
+                masked_line = re.sub(r"<[^>\n]+>", lambda m: " " * len(m.group(0)), masked_line)
+                # Mask URLs (http://, https://)
+                masked_line = re.sub(r"https?://[^\s)\]]+", lambda m: " " * len(m.group(0)), masked_line)
                 cleaned_lines.append(masked_line)
 
         return "".join(cleaned_lines)
