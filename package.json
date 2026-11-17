@@ -1,0 +1,41 @@
+{
+  "name": "@amanverma-765/readable",
+  "version": "0.1.0",
+  "description": "Deterministic psycholinguistic readability linter and agent skill",
+  "main": "bin/cli.js",
+  "bin": {
+    "human-readable": "./bin/cli.js",
+    "readable": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amanverma-765/readable.git"
+  },
+  "scripts": {
+    "test": "python3 -m unittest discover tests",
+    "lint": "python3 -m readable README.md"
+  },
+  "keywords": [
+    "agent-skill",
+    "skills",
+    "skills-sh",
+    "claude-code",
+    "antigravity",
+    "cursor",
+    "opencode",
+    "readability",
+    "psycholinguistics",
+    "linter",
+    "claudish"
+  ],
+  "author": "Readable Contributors",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "readable",
+    "skills",
+    ".agents",
+    "skills.json",
+    "README.md"
+  ]
+}

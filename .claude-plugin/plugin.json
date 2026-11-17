@@ -1,0 +1,8 @@
+{
+  "name": "human-readable",
+  "version": "0.1.0",
+  "description": "Enforce human-readable, low-cognitive-load prose and eliminate AI dialect ('Claudish').",
+  "skills": [
+    "skills/human-readable"
+  ]
+}

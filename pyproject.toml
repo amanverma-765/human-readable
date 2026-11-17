@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readable"
+version = "0.1.0"
+description = "Deterministic psycholinguistic readability linter and verifier for coding agents and human prose"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Readable Contributors" }
+]
+keywords = ["readability", "psycholinguistics", "linter", "ai-dialect", "claudish", "agent-skill"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+readable = "readable.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["readable*"]

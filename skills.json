@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schema.json",
+  "name": "human-readable",
+  "version": "0.1.0",
+  "description": "Enforce human-readable, low-cognitive-load prose in agent output and documentation.",
+  "skills": [
+    {
+      "name": "human-readable",
+      "path": "skills/human-readable/SKILL.md",
+      "description": "Enforce human-readable, low-cognitive-load prose in agent responses, explanations, pull requests, and documentation. Eliminates compressed AI dialect (\"Claudish\") and verifies output deterministically with the readable tool."
+    }
+  ]
+}
