@@ -1,5 +1,5 @@
 {
-  "name": "@amanverma-765/readable",
+  "name": "@amanverma-765/human-readable",
   "version": "0.1.0",
   "description": "Deterministic psycholinguistic readability linter and agent skill",
   "main": "bin/cli.js",

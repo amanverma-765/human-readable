@@ -1,8 +1,8 @@
-# Readable
+# Human-Readable
 
 **Deterministic Psycholinguistic Readability Verifier & Agent Skill**
 
-Grounded in the empirical cognitive science findings of **Clark, Martin, and Mahowald (2026)** (*"Why is AI-generated language so hard to understand?"*, arXiv:2610.29162), `readable` is a zero-dependency linter and coding agent skill that enforces human-readable prose by eliminating unnatural syntactic compression and the "Claudish" AI dialect.
+Grounded in the empirical cognitive science findings of **Clark, Martin, and Mahowald (2026)** (*"Why is AI-generated language so hard to understand?"*, arXiv:2610.29162), `human-readable` is a zero-dependency linter and coding agent skill that enforces human-readable prose by eliminating unnatural syntactic compression and the "Claudish" AI dialect.
 
 ---
 
