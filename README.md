@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/amanverma-765/readable/actions"><img src="https://img.shields.io/badge/tests-passing-brightgreen.svg" alt="Tests"></a>
+  <a href="https://github.com/amanverma-765/human-readable/actions"><img src="https://img.shields.io/badge/tests-passing-brightgreen.svg" alt="Tests"></a>
   <a href="https://pypi.org"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python Version"></a>
   <a href="https://nodejs.org"><img src="https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg" alt="Node Version"></a>
   <a href="https://skills.sh"><img src="https://img.shields.io/badge/skills.sh-compatible-purple.svg" alt="Skills.sh Compatible"></a>
@@ -110,10 +110,10 @@ Install into seventy or more coding agents (Claude Code, Cursor, Antigravity, Op
 
 ```bash
 # Install to the current repository
-npx skills add amanverma-765/readable --skill human-readable
+npx skills add amanverma-765/human-readable --skill human-readable
 
 # Or install globally across all configured agents
-npx skills add -g amanverma-765/readable --skill human-readable
+npx skills add -g amanverma-765/human-readable --skill human-readable
 ```
 
 ### Option 2: Direct Single-Command via `npx`
@@ -121,18 +121,18 @@ Run directly from GitHub without cloning:
 
 ```bash
 # Install into the current project (.agents/skills/ and skills/)
-npx github:amanverma-765/readable install
+npx github:amanverma-765/human-readable install
 
 # Or install globally across all detected agents on your system
-npx github:amanverma-765/readable install --global
+npx github:amanverma-765/human-readable install --global
 ```
 
 ### Option 3: Python Package Installation
 For local development, CI pipelines, or pre-commit hooks:
 
 ```bash
-git clone https://github.com/amanverma-765/readable.git
-cd readable
+git clone https://github.com/amanverma-765/human-readable.git
+cd human-readable
 pip install -e .
 ```
 
